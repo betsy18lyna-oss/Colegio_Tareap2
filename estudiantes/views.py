@@ -1,3 +1,5 @@
 from django.shortcuts import render
 
-# Create your views here.
+def estudiante(request):
+    return render(request,'estudiantes/estudiante_form.html')
+

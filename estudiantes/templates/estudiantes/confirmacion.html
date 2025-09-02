@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="es">
+<head><meta charset="utf-8"><title>Confirmación</title></head>
+<body>
+  <h1>Datos recibidos (no guardados)</h1>
+  <ul>
+    <li>Nombre: {{ datos.nombre }}</li>
+    <li>Apellido: {{ datos.apellido }}</li>
+    <li>Edad: {{ datos.edad }}</li>
+    <li>Correo: {{ datos.correo }}</li>
+  </ul>
+  <a href="{% url 'estudiante_nuevo' %}">Volver</a>
+</body>
+</html>
